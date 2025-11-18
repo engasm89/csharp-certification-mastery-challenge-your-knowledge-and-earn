@@ -2,6 +2,42 @@
  * Course: Csharp Certification Mastery Challenge Your Knowledge And Earn
  * Platform: Embedded Systems
  * Author: Ashraf S A AlMadhoun
+ * 
+ * Description:
+ * This code demonstrates the core concepts taught in the "Csharp Certification Mastery Challenge Your Knowledge And Earn" course.
+ * It provides a practical implementation that students can study, modify, and
+ * use as a foundation for their own projects.
+ * 
+ * Learning Objectives:
+ * - Understand the fundamental principles covered in this course
+ * - Practice implementing the concepts with real code
+ * - Build a working example that can be extended
+ * 
+ * Hardware Requirements:
+ * - Development board (Embedded Systems)
+ * - Components as specified in CIRCUIT.md
+ * - USB cable for programming
+ * 
+ * Pin Connections:
+ * Refer to CIRCUIT.md for detailed wiring diagrams and pin assignments.
+ * 
+ * Usage:
+ * 1. Review the code structure and comments
+ * 2. Connect hardware according to CIRCUIT.md
+ * 3. Upload code to your development board
+ * 4. Monitor serial output for debugging
+ * 
+ * Course Link: https://www.udemy.com/course/csharp-certification-mastery-challenge-your-knowledge-and-earn/
+ * Repository: https://github.com/engasm89/csharp-certification-mastery-challenge-your-knowledge-and-earn
+ * 
+ * Copyright (c) 2025 Ashraf S A AlMadhoun
+ * Licensed under MIT License
+ */
+
+/*
+ * Course: Csharp Certification Mastery Challenge Your Knowledge And Earn
+ * Platform: Embedded Systems
+ * Author: Ashraf S A AlMadhoun
  * Purpose: Auto-generated metadata block to document the learning goals.
  * Notes: Auto-generated metadata block (2025-11-18)
  */
@@ -44,7 +80,7 @@ int test_sum_n(void) { // Function implementing a numeric test
   return sum == 55; // Return 1 if result matches
 } // End test
 
-// Entry po// Main routine: orchestrates the csharp certification mastery challenge your knowledge and earn scenario
+// Program entry point po// Main routine: orchestrates the csharp certification mastery challenge your knowledge and earn scenario
 int main function
 int main(void) { // Start main
   printf("C# Certification Mastery (C analog tests)\n"); // Title output
@@ -61,5 +97,5 @@ int main(void) { // Start main
   } // End loop
   printf("Summary %d/%d PASS\n", pass, total); // Print summary
   return pass == total ? 0 : 1; // Return success if all pass
-} // End main
+} // End of main function
 
