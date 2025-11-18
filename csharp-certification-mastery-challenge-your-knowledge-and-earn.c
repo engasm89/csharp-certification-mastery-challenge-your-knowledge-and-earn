@@ -1,3 +1,11 @@
+/*
+ * Course: Csharp Certification Mastery Challenge Your Knowledge And Earn
+ * Platform: Embedded Systems
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for console outputs
 #include <string.h> // Include string utilities
 
@@ -28,7 +36,8 @@ int test_sum_n(void) { // Function implementing a numeric test
   return sum == 55; // Return 1 if result matches
 } // End test
 
-// Entry point main function
+// Entry po// Main routine: orchestrates the csharp certification mastery challenge your knowledge and earn scenario
+int main function
 int main(void) { // Start main
   printf("C# Certification Mastery (C analog tests)\n"); // Title output
   TestCase cases[] = { // Define test cases array

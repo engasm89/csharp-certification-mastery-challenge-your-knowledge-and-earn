@@ -1,24 +1,16 @@
-# C# Certification + Embedded — Circuit Schematic
+# Csharp Certification Mastery Challenge Your Knowledge And Earn — Circuit Notes
 
-- Course: C# Certification Mastery: Challenge Your Knowledge and Earn
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/c-csharp-test-your-skills-and-get-certified-in-csharp-programming/?couponCode=JULYMAXDICOUNT
+| Signal | Suggested Pin | Notes |
+| --- | --- | --- |
+| Sensor Input | A0 / GPIO | Adjust according to the Embedded Systems board you own. |
+| Actuator Output | D9 / PWM Pin | Use a transistor/driver for high-current loads. |
+| Status LED | D13 or onboard LED | Mirrors the runtime state for quick debugging. |
 
-## Connections
+## Wiring Checklist
 
-- Raspberry Pi / Microcontroller GPIO driving an LED used for test feedback.
+1. Power rails first (5V / 3.3V and GND).
+2. Route sensor outputs to the analog/digital pin noted above.
+3. Add current-limiting resistors where appropriate.
+4. Double-check common grounds between modules and the development board.
 
-## Diagram (ASCII)
-
-```
- GPIO ---[330Ω]---|> LED --- GND
-```
-
-## Notes
-
-- In C#, similar logic can be implemented with .NET IoT libraries to drive GPIO.
-
-## Purchase With Discount
-
-Get a discounted price and connect certification skills to embedded practice — use the link above.
-
+Refer to the course lecture for the exact schematic; reuse these notes as a quick reference.
